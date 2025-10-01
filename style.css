@@ -5,36 +5,118 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
+#titulo {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 32px;
+    background: linear-gradient(90deg, #ff00dd 0%, #ab00c2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
-/* HEADER */
-header {
-    background-color: #781E88;
-    color: white;
+
+#cabecalho {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+#subtitulo {
+    padding-left: 150px;
+    font-family: 'Cascadia Code', monospace;
+    font-size: 24px;
+    background: linear-gradient(150deg, #ff00dd 0%, #860097 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 20px;
+}
+
+#texto {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #ffffffde;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    align-items: justify;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    color: #ffffff;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4B1355 17%, #62196F 44%, #781E88 71%, #8F24A1 84%, #A52ABB 100%);
+}
+
+.container {
+    /* ajuste conforme design */
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 250px;
+}
+
+/* header */
+.site-header {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: rgba(122, 40, 169, 0.2); /* cor com transparência */
+    backdrop-filter: blur(12px); /* efeito de blur */
+    -webkit-backdrop-filter: blur(2px); /* suporte para Safari */
+    position: sticky;
+    top: 5px;
+    z-index: 100;
+}
+
+.site-header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 5px 0;
 }
 
-.logo {
-    font-size: 24px;
-}
 
-nav ul {
+.nav-menu ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
-nav a {
+.nav-menu a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav a:hover {
+.nav-menu a:hover {
     text-decoration: underline;
+}
+
+/* subtitulos */
+.section {
+    padding: 30px 0;
+}
+
+.section h1, .section h2 {
+    margin-bottom: 10px;
+}
+
+.quem-sou {
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
 }

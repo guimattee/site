@@ -1,31 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guilherme Matte Embarach</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="main.js">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#quem sou eu">Quem sou eu</a></li>
-                <li><a href="#formação">Formação</a></li>
-                <li><a href="#experiência">Experiência</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container">
+            <h1 id="titulo">&lt;GME&gt;</h1>
+            <nav id="cabecalho" class="nav-menu">
+                <ul>
+                    <li><a href="#quem-sou">Quem sou eu</a></li>
+                    <li><a href="#experiencias">Experiências</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#github">GitHub</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div id="foto">
-        <img id="minha-foto" src="images/minha_foto.png" alt="foto">
-    </div>
-    <h1>Seja bem vindo</h1>
-    <div id="quem sou eu">
-        <h2>Quem sou eu</h2>
-    </div>
+    <section id="quem-sou" class="section quem-sou">
+        <div class="container">
+            <img src="images/minha_foto.png" alt="Minha foto" class="foto-perfil" />
+            <h1>Quem sou eu?</h1>
+            <p>Um pouco de texto falando sobre você...aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+        </div>
+    </section>
+
+    <section id="experiencias" class="section experiencias">
+        <div class="container">
+            <h2 id="subtitulo">Experiências</h2>
+            <p id="texto">Aqui<br> vão<br> as<br> suas<br> experiências<br> profissionais.</p>
+        </div>
+    </section>
+
+    <section id="formacao" class="section formacao">
+        <div class="container">
+            <h2 id="subtitulo">Formação</h2>
+            <p id="texto">Seus cursos<br>, faculdade<br> etc<br>.</p>
+        </div>
+    </section>
+
+    <section id="github" class="section github">
+        <div class="container">
+            <h2 id="subtitulo">GitHub</h2>
+            <p id="texto"><a href="https://github.com/guimattee">GitHub</a></p>
+        </div>
+    </section>
+
+    <section id="contatos" class="section contatos">
+        <div class="container">
+            <h2 id="subtitulo">Contatos</h2>
+            <p id="texto">Email, redes sociais etc.</p>
+        </div>
+    </section>
+
 </body>
+
 </html>
