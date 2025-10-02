@@ -21,6 +21,16 @@
     font-size: 15px;
 }
 
+#botao-cabecalho1, #botao-cabecalho2, #botao-cabecalho3, #botao-cabecalho4 {
+    background-color: transparent;
+    transition: 0.4s;
+}
+
+#botao-cabecalho1:hover, #botao-cabecalho2:hover, #botao-cabecalho3:hover, #botao-cabecalho4:hover {
+    background-color: transparent;
+    transform: scale(1.05);
+}
+
 #subtitulo {
     font-family: 'Cascadia Code', monospace;
     font-size: 24px;
@@ -109,7 +119,6 @@ body {
     backdrop-filter: blur(12px);
     /* efeito de blur */
     -webkit-backdrop-filter: blur(2px);
-    /* suporte para Safari */
     position: sticky;
     top: 5px;
     z-index: 100;
