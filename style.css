@@ -43,8 +43,10 @@
 
 #icones {
     display: flex;
-    gap: 50px; /* Espaço entre os ícones */
-    justify-content: center; /* Ou center, se quiser centralizar */
+    gap: 50px;
+    /* Espaço entre os ícones */
+    justify-content: center;
+    /* Ou center, se quiser centralizar */
     align-items: center;
 }
 
@@ -53,14 +55,31 @@
     text-align: center;
     background: linear-gradient(150deg, #d800bb 0%, #860097 100%);
     -webkit-background-clip: border-box;
+    background-clip: border-box;
     padding-bottom: 5px;
     border-radius: 90px;
 }
-#contatos2 {
+
+#contatos_rodape {
     color: black;
     font-family: 'Cascadia Code', monospace;
-    font-size: 24px;
+    font-size: 25px;
     margin-bottom: 10px;
+}
+
+#botao {
+    background-color: transparent;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+
+#botao:hover {
+    background: linear-gradient(150deg, #d800bb 0%, #860097 100%);
+    transform: scale(1.2);
+}
+#botao:active {
+    transform: scale(0.9);
+    transition: 0.1s;
 }
 
 body {
@@ -85,9 +104,12 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 50px;
-    background-color: #7a28a959; /* cor com transparência */
-    backdrop-filter: blur(12px); /* efeito de blur */
-    -webkit-backdrop-filter: blur(2px); /* suporte para Safari */
+    background-color: #7a28a959;
+    /* cor com transparência */
+    backdrop-filter: blur(12px);
+    /* efeito de blur */
+    -webkit-backdrop-filter: blur(2px);
+    /* suporte para Safari */
     position: sticky;
     top: 5px;
     z-index: 100;
@@ -122,7 +144,8 @@ body {
     padding: 30px 0;
 }
 
-.section h1, .section h2 {
+.section h1,
+.section h2 {
     margin-bottom: 10px;
 }
 
@@ -135,7 +158,7 @@ body {
     color: transparent;
 }
 
-#quem-sou  {
+#quem-sou {
     text-align: center;
     color: white;
 }
