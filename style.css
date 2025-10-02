@@ -49,8 +49,19 @@
     margin-left: 400px;
     align-items: justify;
     word-break: break-word;
+}
 
+#icones {
+    display: flex;
+    gap: 50px; /* Espaço entre os ícones */
+    justify-content: center; /* Ou center, se quiser centralizar */
+    align-items: center;
+}
 
+#contatos {
+    text-align: center;
+    color: white;
+    padding: 20px;
 }
 
 body {
@@ -66,7 +77,7 @@ body {
     /* ajuste conforme design */
     width: 90%;
     max-width: 1500px;
-    margin: 0 250px;
+    margin: 0px auto;
 }
 
 /* header */
