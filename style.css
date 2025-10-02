@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+#site-header {
+scroll-behavior: smooth;
+}
+
 #titulo {
     font-family: 'Cascadia Code', monospace;
     font-size: 32px;
