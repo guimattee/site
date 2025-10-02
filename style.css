@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+#titulo_principal {
+    color: black;
+}
+
 #titulo {
     font-family: 'Cascadia Code', monospace;
     font-size: 32px;
@@ -33,6 +37,7 @@
     background-clip: text;
     color: transparent;
     margin-bottom: 20px;
+    margin-left: 45px;
 }
 
 #texto {
@@ -41,8 +46,10 @@
     color: #ffffffde;
     line-height: 1.6;
     margin-bottom: 20px;
-    margin-left: 200px;
+    margin-left: 400px;
     align-items: justify;
+    word-break: break-word;
+
 
 }
 
@@ -109,8 +116,18 @@ body {
     margin-bottom: 10px;
 }
 
+#titulo_quem-sou {
+    font-family: 'Cascadia Code', monospace;
+    background: linear-gradient(150deg, #ff00dd 0%, #b620ca 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
 .quem-sou {
     text-align: center;
+    color: white;
 }
 
 .foto-perfil {
