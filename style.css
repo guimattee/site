@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-#titulo_principal {
-    color: black;
-}
-
 #titulo {
     font-family: 'Cascadia Code', monospace;
     font-size: 32px;
@@ -23,32 +19,26 @@
 #cabecalho {
     font-family: 'Cascadia Code', monospace;
     font-size: 15px;
-    color: #ffffff;
-    margin-right: 5px;
 }
 
 #subtitulo {
-    padding-left: 150px;
     font-family: 'Cascadia Code', monospace;
     font-size: 24px;
     background: linear-gradient(150deg, #ff00dd 0%, #860097 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
     margin-bottom: 20px;
-    margin-left: 45px;
+    margin-left: 300px;
 }
 
 #texto {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-family: 'Cascadia Code', monospace;
+    font-size: 15px;
     color: #ffffffde;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    margin-left: 400px;
-    align-items: justify;
-    word-break: break-word;
+    line-height: 1.4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #icones {
@@ -59,17 +49,26 @@
 }
 
 #contatos {
+    font-family: 'Cascadia Code', monospace;
     text-align: center;
-    color: white;
-    padding: 20px;
+    background: linear-gradient(150deg, #d800bb 0%, #860097 100%);
+    -webkit-background-clip: border-box;
+    padding-bottom: 5px;
+    border-radius: 90px;
+}
+#contatos2 {
+    color: black;
+    font-family: 'Cascadia Code', monospace;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.7;
     color: #ffffff;
-    margin: 0;
-    min-height: 100vh;
+    margin-top: 15px;
+
     background: linear-gradient(135deg, #4B1355 17%, #62196F 44%, #781E88 71%, #8F24A1 84%, #A52ABB 100%);
 }
 
@@ -86,7 +85,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 50px;
-    background-color: rgba(122, 40, 169, 0.2); /* cor com transparência */
+    background-color: #7a28a959; /* cor com transparência */
     backdrop-filter: blur(12px); /* efeito de blur */
     -webkit-backdrop-filter: blur(2px); /* suporte para Safari */
     position: sticky;
@@ -136,7 +135,7 @@ body {
     color: transparent;
 }
 
-.quem-sou {
+#quem-sou  {
     text-align: center;
     color: white;
 }
