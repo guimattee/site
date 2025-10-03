@@ -15,15 +15,30 @@ scroll-behavior: smooth;
 
 #titulo {
     font-family: 'Cascadia Code', monospace;
-    font-size: 32px;
+    font-size: 40px;
     background: linear-gradient(90deg, #ff00dd 0%, #ab00c2 100%);
+    background-size: 200% 200%;
+    animation: gradientMove 2.5s ease infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
     margin-left: 35px;
+    transition: 0.3s;
 }
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 
+}
+#titulo:active {
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+#titulo:hover {
+    transform: scale(1.1);
+}
 
 #cabecalho {
     font-family: 'Cascadia Code', monospace;
@@ -60,12 +75,23 @@ scroll-behavior: smooth;
     justify-content: center;
 }
 
-#icones {
+#icones, #icones-programas {
     display: flex;
-    gap: 25px;
-    /* Espaço entre os ícones */
+    gap: 20px;
     justify-content: center;
-    
+}
+
+#iconesLan {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+#iconesLan:hover {
+    border-radius: 50px;
+    transform: scale(1.5);
+    transition: 0.9s;
 }
 
 #contatos {
@@ -76,8 +102,8 @@ scroll-behavior: smooth;
     -webkit-background-clip: border-box;
     background-clip: border-box;
     border-radius: 90px;
-    max-width: 1920px;
-    padding: 3px 0;
+    max-width: 1900px;
+    padding: 1px;
     margin-left: 10px;
     margin-right: 10px;
 }
