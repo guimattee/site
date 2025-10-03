@@ -68,7 +68,7 @@ html {
 #subtitulo {
     font-family: 'Cascadia Code', monospace;
     font-size: 24px;
-    background: linear-gradient(150deg, #ff00dd 0%, #860097 100%);
+    background: linear-gradient(175deg, #ff00dd 0%, #860097 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
@@ -139,7 +139,7 @@ html {
 body {
     line-height: 1.7;
     margin-top: 20px;
-    background: linear-gradient(135deg, #4B1355 17%, #62196F 44%, #781E88 71%, #8F24A1 84%, #A52ABB 100%);
+    background: linear-gradient(175deg, #4B1355 17%, #62196F 44%, #781E88 71%, #8F24A1 84%, #A52ABB 100%);
 }
 
 .container {
